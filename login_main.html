@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<title>NWS - Login</title>
+<!--NWS=Nander's WebSite-->
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Nander Melendez"/>
+	<meta name="description" content="Página de pruebas de CS hecho por Nander Melendez"/>
+	<meta name="keywords" content="Nander , CS , UTEC , Plataformas , 2019-1"/>
+	<meta name="robots" content="follow"/>
+
+	<!--Favicon-->
+	<link rel='icon' href='images/Pix-Smile_Minicon.png' type='image/x-icon'/>
+
+	<link href="css/estilos.css" rel="stylesheet" type="text/css">
+	<script src="javascript.js"></script>
+
+	<!--
+	<script language="JavaScript" type="text/javascript">
+		alert("¡Bienvenido!");
+	</script>
+	-->
+
+	<div id="Top" align="center" style="padding-top: 20px">
+		<h1>Ciencias de la Computación.</h1>
+	</div>
+</head>
+<body>
+	<script language="JavaScript" type="text/javascript">
+		function go()
+		{
+			if(document.form.password.value=="utecsino" && document.form.login.value=="Computer.Science@utec.edu.pe")
+			{
+				window.open("index.html","_self");
+			}
+			else
+			{
+				alert("Por favor verifique que su correo electrónico y/o contraseña sean válidos.");
+			}
+		}
+		function forgot()
+		{
+			window.open("forgot-password.html","_self");
+		}
+	</script>
+	<div align="center" style="padding-top: 90px">
+		<form name="form">
+			<p align="left">Correo electrónico:<input type="email" name="login"></p>
+			<p align="left">Contraseña:        <input type="password" name="password"></p>
+			<br/>
+			<tr>
+				<td>
+					<input onclick=go() type="button" value="Acceder.">
+				</td>
+				<td>
+					<input onclick=forgot() type="button" value="¿Olvidaste tu contraseña?">
+				</td>
+			</tr>
+		</form>
+	</div>
+	<div class="texto" align="center" style="padding: 20px; padding-bottom: 145px">
+		<br/>
+		<tr>
+			<td>
+				<a href="#" id="togoogle">Ingresar con google.</a>
+			</td>
+			<td>
+				<a href="#" id="tofacebook">
+				Ingresar con facebook.</a>
+			</td>
+		</tr>
+	</div>
+</body>
+
+</html>

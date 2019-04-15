@@ -1,0 +1,98 @@
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,255),rgba(0,0,0,0),rgba(0,0,0,255)), url("C:/Users/DELL/Desktop/Website_NanderMelendez/Images/bg.jpg")/*, url(https://i.pinimg.com/originals/85/c0/34/85c0345fb0d7bb63ab78127badb31f44.jpg)*/;
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	background-position: center;
+}
+
+form
+{
+	width: 30%;
+	border: 2px solid #ffcc00;
+	margin: 20px;
+	padding: 20px;
+	background: linear-gradient(rgb(17,3,51),rgb(0,0,0));
+}
+
+label
+{
+	font-size: 12px;
+	display: block;
+}
+
+input, textarea
+{
+	/*margin-top: 20px;*/
+	margin-bottom: 5px;
+	width: 65%;
+	padding: 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input[type="button"]
+{
+	margin-bottom: 0;
+	background-color: #0c0333;
+	color: #ffcc00;
+	width:43%;
+}
+
+#Top
+{
+	background: linear-gradient(rgb(17,3,51),rgb(0,0,0));
+	color: #ffc107;
+	padding: 15px;
+}
+
+#Bottom
+{
+	background: linear-gradient(rgb(17,3,51),rgb(0,0,0));
+	color: #3d3d3d;
+	padding: 5px;
+	text-align: right;
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+
+#togoogle
+{
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	background: linear-gradient(rgb(242,69,69),rgb(191,0,0));
+	padding: 5px;
+	text-decoration: none;
+}
+
+#tofacebook
+{
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	background: linear-gradient(rgb(63,108,255),rgb(16,45,139));
+	padding: 5px;
+	text-decoration: none;
+}
+
+#golink
+{
+	text-decoration: none;
+}
+
+#account
+{
+	color: rgb(255,255,255);
+}
+
+#usericon
+{
+	max-width: 4%;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+p
+{
+	color: #FFFFFF;
+}
